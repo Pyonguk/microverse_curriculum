@@ -2,9 +2,12 @@
 
 # Curriculum Mobile Version
 
-> First 2 sections of the curriculum.
+> First 2 sections of the curriculum, including:
 
-![screenshot](./app_screenshot.png)
+- Toolbar with their respective icons and geometrical shapes.
+- Headline with their respective fonts, sizes and "Star Collaboration" button.
+
+![screenshot](./icons/preview.png)
 
 **Since is a mobile version please change the adaptive design view width bellow 800px.**
 
