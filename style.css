@@ -85,5 +85,12 @@
   .btn:hover {
     color: #1a2236;
     background-color: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .btn:active {
+    color: #1a2236;
+    background-color: #fff;
+    border: 2px solid #1a2236;
   }
 }
