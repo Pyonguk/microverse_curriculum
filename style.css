@@ -53,7 +53,8 @@
   }
 
   .name,
-  .main_title {
+  .main_title,
+  .about_title {
     font-size: 15vw;
     font-family: "Playfair Display", sans-serif;
     line-height: 1;
@@ -83,13 +84,15 @@
     z-index: 10;
   }
 
-  .btn:hover {
+  .btn:hover,
+  .cv:hover {
     color: #1a2236;
     background-color: #fff;
     border: 1px solid #1a2236;
   }
 
-  .btn:focus {
+  .btn:focus,
+  .cv:focus {
     color: #1a2236;
     background-color: #fff;
     border: 2px solid #1a2236;
@@ -190,5 +193,83 @@
 
   .main_title {
     padding: 0 4vw 4vw 4vw;
+  }
+
+  .about_title,
+  .about {
+    padding: 0 4vw 4vw 4vw;
+    margin-bottom: 0;
+    color: #1a2236;
+  }
+
+  .about_title {
+    padding-top: 10vw;
+  }
+
+  .par {
+    padding-bottom: 5vw;
+    font-family: Poppins, sans-serif;
+
+  }
+
+  .cv {
+    border: none;
+    color: #fff;
+    background: #1a2236;
+    margin-top: 5vw;
+    padding: 3vw 0;
+    transition: 0.3s;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+
+  .languages {
+    position: relative;
+    padding: 10vw;
+    background: #1c528a;
+    color: #fff;
+    margin-bottom: 5vw;
+  }
+
+  .frameworks {
+    position: relative;
+    padding: 10vw;
+    background: #e2505c;
+    margin-bottom: 5vw;
+    color: #fff;
+  }
+
+  .skills {
+    position: relative;
+    background: #febf52;
+    padding: 10vw;
+    color: #fff;
+  }
+
+  .about_subtitle {
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5vw;
+    font-size: 6vw;
+  }
+
+  .about ul {
+    padding-left: 4vw;
+    font-family: Poppins, sans-serif;
+    font-size: 4vw;
+  } 
+
+  .thing {
+    margin-bottom: 2vw;
+  }
+
+  .about_icon {
+    float: inline-end;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 86%;
   }
 }
