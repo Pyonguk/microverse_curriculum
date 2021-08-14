@@ -127,19 +127,59 @@
   .descr h2 {
     font-family: Poppins, sans-serif;
     font-weight: 300;
+    font-size: 6vw;
   }
 
   .descr h3 {
     font-family: Poppins, sans-serif;
     font-weight: 300;
+    font-size: 3vw;
+  }
+
+  .descr button {
+    border: none;
+    color: #1a2236;
+    background: #fff;
+    width: auto;
+    height: auto;
+    margin-top: 5vw;
+    padding: 3vw 0px;
+    transition: 0.3s;
+  }
+
+  .descr button:hover {
+    color: #fff;
+    background: #1a2236;
+    border: 1px solid #fff;
+  }
+
+  .descr button:focus {
+    color: #fff;
+    background: #1a2236;
+    border: 2px solid #fff;
+  }
+
+  .descr button h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    align-self: center;
   }
 
   .descr button span {
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
+    font-size: 5vw;
   }
 
-  .descr img {
-    width: 3vw;
+  .lang {
+    display: grid;
+    grid-template: 100% / 1fr 1fr 1fr;
+    grid-column-gap: 1vw;
+    text-align: center;
+  }
+
+  .lang h3 {
+    background: #98dede;
+    color: #1a2236;
+    padding: 1vw;
   }
 }
