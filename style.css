@@ -52,7 +52,7 @@
     color: #1a2236;
   }
 
-  .name {
+  .name, .main_title {
     font-size: 15vw;
     font-family: "Playfair Display", sans-serif;
     line-height: 1;
@@ -97,7 +97,7 @@
   .geometrical_div {
     display: flex;
     padding-top: 2vh;
-    padding-bottom: 8vh;
+    padding-bottom: 6vh;
   }
 
   .geometrical_div img {
@@ -181,5 +181,9 @@
     background: #98dede;
     color: #1a2236;
     padding: 1vw;
+  }
+
+  .main_title {
+    padding: 0px 4vw 4vw 4vw;
   }
 }
