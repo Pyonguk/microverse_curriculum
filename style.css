@@ -146,6 +146,10 @@
     margin-top: 5vw;
     padding: 3vw 0;
     transition: 0.3s;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    align-self: center;
   }
 
   .descr button:hover {
@@ -160,7 +164,7 @@
     border: 2px solid #fff;
   }
 
-  .descr button h1 {
+  .descr button h2 {
     font-family: Poppins, sans-serif;
     font-weight: 500;
     font-size: 5vw;
