@@ -2,10 +2,12 @@
 
 # Curriculum Mobile Version
 
-> First 2 sections of the curriculum, including:
+> First 4 sections of the curriculum, including:
 
 - Toolbar with their respective icons and geometrical shapes.
 - Headline with their respective fonts, sizes and "Star Collaboration" button.
+- Works section
+- About me
 
 ![screenshot](./icons/preview.png)
 
