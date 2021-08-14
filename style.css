@@ -84,20 +84,6 @@
     z-index: 10;
   }
 
-  .btn:hover,
-  .cv:hover {
-    color: #1a2236;
-    background-color: #fff;
-    border: 1px solid #1a2236;
-  }
-
-  .btn:focus,
-  .cv:focus {
-    color: #1a2236;
-    background-color: #fff;
-    border: 2px solid #1a2236;
-  }
-
   .geometrical_div {
     display: flex;
     padding-top: 2vh;
@@ -122,10 +108,10 @@
   }
 
   .descr {
-    padding: 5vw;
-    display: grid;
     grid-template: 20% 20% 20% 20% 20% / 80vw;
     grid-row-gap: 3vw;
+    padding: 5vw;
+    display: grid;
   }
 
   .descr h2 {
@@ -209,7 +195,6 @@
   .par {
     padding-bottom: 5vw;
     font-family: Poppins, sans-serif;
-
   }
 
   .cv {
@@ -224,6 +209,20 @@
     font-size: 5vw;
     width: 100%;
     margin-bottom: 8vw;
+  }
+
+  .btn:hover,
+  .cv:hover {
+    color: #1a2236;
+    background-color: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .btn:focus,
+  .cv:focus {
+    color: #1a2236;
+    background-color: #fff;
+    border: 2px solid #1a2236;
   }
 
   .languages {
@@ -260,7 +259,7 @@
     padding-left: 4vw;
     font-family: Poppins, sans-serif;
     font-size: 4vw;
-  } 
+  }
 
   .thing {
     margin-bottom: 2vw;
@@ -269,7 +268,7 @@
   .about_icon {
     float: inline-end;
     position: absolute;
-    transform: translate(-50%,-50%);
-    left: 86%;
+    transform: translate(-50%, -50%);
+    left: 85%;
   }
 }
