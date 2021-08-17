@@ -287,6 +287,7 @@
   #form ul {
     list-style: none;
     padding: 0;
+    margin-bottom: 16vw;
   }
 
   #form h2,
@@ -348,7 +349,8 @@
   #form .buttom {
     padding: 0;
     align-self: center;
-    margin-top: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 16vw;
   }
 
   #form button {
@@ -385,7 +387,7 @@
   }
 
   #form .textarea {
-    margin-bottom: 10vw;
+    margin-bottom: 8vw;
   }
 
   .form-par {
@@ -404,5 +406,36 @@
     position: relative;
     left: -10%;
     height: 100%;
+  }
+
+  footer {
+    background: #1a2236;
+    display: relative;
+    flex-flow: column nowrap;
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+  }
+
+  footer section {
+    margin: 0vw 4vw;
+    background-color: #1a2236;
+  }
+
+  #resume {
+    color: #92DCDC;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5vw;
+  }
+
+  #resume h6{
+    font-weight: 400;
+    font-size: 5vw;
+  }
+
+  #social_media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 10vw;
   }
 }
