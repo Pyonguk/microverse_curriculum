@@ -271,4 +271,37 @@
     transform: translate(-50%, -50%);
     left: 85%;
   }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    padding: 0 4vw 4vw 4vw;
+  }
+
+  #form ul {
+    list-style: none;
+  }
+
+  #form ul li,
+  #form h2,
+  #form p {
+    padding: 0 4vw 4vw 4vw;
+  }
+
+  .form_title {
+    font-size: 15vw;
+    font-family: "Playfair Display", sans-serif;
+    line-height: 1;
+    margin-bottom: 1vw;
+    font-weight: 400;
+  }
+
+  #form input,
+  #form textarea {
+    border: none;
+  }
 }
