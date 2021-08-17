@@ -195,6 +195,7 @@
   .par {
     padding-bottom: 5vw;
     font-family: Poppins, sans-serif;
+    font-size: 3vw;
   }
 
   .cv {
@@ -270,5 +271,169 @@
     position: absolute;
     transform: translate(-50%, -50%);
     left: 85%;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-between;
+    padding: 0 4vw 4vw 4vw;
+    margin-top: 15vw;
+  }
+
+  #form ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16vw;
+  }
+
+  #form h2,
+  #form p {
+    padding: 0 4vw 4vw 0;
+  }
+
+  .form_title {
+    font-size: 15vw;
+    font-family: "Playfair Display", sans-serif;
+    line-height: 1;
+    margin-top: 15vw;
+    margin-bottom: 1vw;
+    font-weight: 400;
+  }
+
+  #form input,
+  #form textarea {
+    width: 92%;
+    border: none;
+    background: transparent;
+  }
+
+  #form button {
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a2236;
+    padding: 3vw 0;
+    font-weight: 500;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    transition: 0.3s;
+    width: 100%;
+    border: none;
+  }
+
+  #form button:hover {
+    color: #1a2236;
+    background-color: #fff;
+    border: 1px solid #1a2236;
+  }
+
+  .inside {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: auto;
+  }
+
+  .inside,
+  .textarea {
+    border: 1px solid #dfdfe0;
+    margin: 2vw 0;
+    border-radius: 2vw;
+  }
+
+  #form .buttom {
+    padding: 0;
+    align-self: center;
+    margin-top: 2vw;
+    margin-bottom: 16vw;
+  }
+
+  #form input,
+  #form textarea,
+  #form label {
+    margin: 2vw 4vw 2vw 4vw;
+    color: #7d7c84;
+    font-family: Poppins, sans-serif;
+    font-size: 4vw;
+  }
+
+  #form input:focus,
+  #form textarea:focus {
+    margin: 2vw 4vw 2vw 4vw;
+    outline: none;
+    color: black;
+  }
+
+  #form li:focus {
+    border: 3px solid #1a2236;
+  }
+
+  #form label {
+    color: #7d7c84;
+    font-size: 3vw;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 2vw 4vw 0 4vw;
+  }
+
+  #form .textarea {
+    margin-bottom: 8vw;
+  }
+
+  .form-par {
+    font-family: Poppins, sans-serif;
+    font-size: 4vw;
+    padding: 0 0 0 5vw;
+  }
+
+  .left-form {
+    display: flex;
+    position: relative;
+    height: 100%;
+  }
+
+  .figure3 {
+    position: relative;
+    left: -10%;
+    height: 100%;
+  }
+
+  footer {
+    background: #1a2236;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+  }
+
+  footer section,
+  footer div {
+    margin: 0 4vw;
+    background-color: #1a2236;
+  }
+
+  #resume {
+    color: #92dcdc;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 5vw;
+  }
+
+  #resume h6 {
+    font-weight: 400;
+    font-size: 5vw;
+  }
+
+  #social_media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 10vw;
   }
 }
