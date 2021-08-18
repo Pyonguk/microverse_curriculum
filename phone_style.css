@@ -8,14 +8,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+  #dt_header {
+    display: none;
+  }
+
   .toolbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }
-
-  #desktop_header {
-    display: none;
   }
 
   .left-header {
@@ -57,7 +57,7 @@
   }
 
   .name,
-  .main_title,
+  #main_title,
   .about_title {
     font-size: 15vw;
     font-family: "Playfair Display", sans-serif;
@@ -181,12 +181,12 @@
     padding: 1vw;
   }
 
-  .main_title {
+  #main_title {
     padding: 0 4vw 4vw 4vw;
   }
 
   .about_title,
-  .about {
+  #about {
     padding: 0 4vw 4vw 4vw;
     margin-bottom: 0;
     color: #1a2236;
@@ -260,7 +260,7 @@
     font-size: 6vw;
   }
 
-  .about ul {
+  #about ul {
     padding-left: 4vw;
     font-family: Poppins, sans-serif;
     font-size: 4vw;
