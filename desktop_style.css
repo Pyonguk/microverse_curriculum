@@ -1,0 +1,6 @@
+@media only screen and (min-width: 801px) {
+  #desktop_header {
+    display: flex;
+    justify-content: center;
+  }
+}
