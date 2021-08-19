@@ -12,7 +12,9 @@
   #dt_geom_intro,
   #dots1,
   #dots2,
-  #main_proj_right {
+  #dots3,
+  #main_proj_right,
+  .dt_template {
     display: none;
   }
 
