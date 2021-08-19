@@ -517,4 +517,31 @@
     border: 2px solid #1a2236;
     transition: 0.3s;
   }
+
+  footer {
+    display: flex;
+    background: #1a2236;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 12vw;
+    font-family: Poppins, sans-serif;
+  }
+
+  #resume {
+    color: #92dcdc;
+    font-size: 2vw;
+    font-weight: 100;
+  }
+
+  #resume h6 {
+    font-weight: 500;
+  }
+
+  #social_media {
+    align-self: flex-end;
+  }
+
+  #social_media a {
+    margin-left: 2vw;
+  }
 }
