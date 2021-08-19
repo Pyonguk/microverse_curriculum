@@ -8,7 +8,11 @@
 }
 
 @media only screen and (max-width: 800px) {
-  #dt_header {
+  #dt_header,
+  #dt_geom_intro,
+  #dots1,
+  #dots2,
+  #main_proj_right {
     display: none;
   }
 
@@ -56,13 +60,16 @@
     color: #1a2236;
   }
 
+  .name {
+    margin-bottom: 5vw;
+  }
+
   .name,
   #main_title,
   .about_title {
     font-size: 15vw;
     font-family: "Playfair Display", sans-serif;
     line-height: 1;
-    margin-bottom: 5vw;
     font-weight: 400;
   }
 
@@ -183,6 +190,9 @@
 
   #main_title {
     padding: 0 4vw 4vw 4vw;
+    color: #1a2236;
+    background: white;
+    padding-bottom: 10vw;
   }
 
   .about_title,
@@ -194,6 +204,7 @@
 
   .about_title {
     padding-top: 10vw;
+    margin-bottom: 5vw;
   }
 
   .par {

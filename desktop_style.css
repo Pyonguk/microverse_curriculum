@@ -1,9 +1,15 @@
 @media only screen and (min-width: 801px) {
-  .toolbar {
+  /* hide elements */
+
+  .toolbar,
+  .geometrical_div,
+  .img_proj1 {
     display: none;
   }
 
-  #desktop_header {
+  /* header elements */
+
+  #dt_header {
     display: flex;
     justify-content: center;
     padding: 2vw 2vw;
@@ -16,5 +22,161 @@
     color: #1a2236;
     font-family: Poppins, sans-serif;
     font-weight: 400;
+  }
+
+  #dt_intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .intro {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin-left: 12vw;
+    color: #1a2236;
+    height: 100%;
+  }
+
+  .intro .name {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 6vw;
+    margin: 6vw 6vw 3vw 0;
+  }
+
+  .intro .paragraph {
+    font-family: Poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    margin: 0 6vw 3vw 0;
+  }
+
+  .btn {
+    display: flex;
+    font-size: 2vw;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a2236;
+    padding: 1vw 2vw;
+    font-family: Poppins, sans-serif;
+    transition: 0.3s;
+    margin-right: 65%;
+    align-self: center;
+  }
+
+  .btn h6 {
+    font-weight: 400;
+  }
+
+  .btn:hover {
+    color: #1a2236;
+    background-color: #fff;
+    border: 1px solid #1a2236;
+    transition: 0.3s;
+  }
+
+  .btn:focus {
+    border: 2px solid #1a2236;
+    transition: 0.3s;
+  }
+
+  #dots1 {
+    align-self: end;
+    justify-self: end;
+  }
+
+  #dt_geom_intro {
+    width: 100%;
+  }
+
+  /* projects elements */
+
+  #main_project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 12vw;
+  }
+
+  #main_proj_left {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  #main_title {
+    font-size: 8vw;
+    position: relative;
+    transform: rotate(-90deg);
+    left: 3vw;
+    align-self: center;
+  }
+
+  #dots2 {
+    align-self: start;
+    justify-self: end;
+  }
+
+  #main_proj_right {
+    background-image: url(/icons/project1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .descr {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 2vw;
+    background-color: #1a2236f2;
+    z-index: 10;
+    font-family: Poppins, sans-serif;
+  }
+
+  .descr h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 4vw;
+  }
+
+  .lang {
+    display: flex;
+    align-self: center;
+  }
+
+  .lang h3 {
+    margin-right: 4vw;
+    padding: 0.4vw 0.8vw;
+    color: #1a2236;
+    background-color: #98dede;
+    font-weight: 300;
+  }
+
+  .btn2 {
+    display: flex;
+    font-size: 2vw;
+    text-decoration: none;
+    color: #1a2236;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    font-family: Poppins, sans-serif;
+    transition: 0.3s;
+    margin-right: 60%;
+    align-self: center;
+  }
+
+  .btn2:hover {
+    color: #fff;
+    background-color: #1a2236;
+    border: 1px solid #fff;
+    transition: 0.3s;
+  }
+
+  .btn2:focus {
+    color: #fff;
+    background-color: #1a2236;
+    border: 2px solid #fff;
+    transition: 0.3s;
   }
 }
