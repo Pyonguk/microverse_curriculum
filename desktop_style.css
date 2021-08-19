@@ -257,4 +257,130 @@
     font-size: 1vw;;
     margin-right: 50%;
   }
+
+  /* form section */
+
+  #form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+  }
+
+  .left-form {
+    justify-self: start;
+    align-self: start;
+  }
+
+  .center-form {
+    justify-self: center;
+    align-self: center;
+    padding: 5vw 5vw 4vw 5vw;
+  }
+
+  .form_title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 7vw;
+    margin-bottom: 1vw;
+  }
+
+  .form-par {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    text-align: left;
+  }
+
+  .ul {
+    display: grid;
+    grid-template: 1fr 4fr 1fr / 1fr 1fr;
+    column-gap: 1vw;
+    row-gap: 1vw;
+  }
+
+  .inside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inside1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .inside2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .textarea {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    place-self: center stretch;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  #form label {
+    color: #7d7c84;
+    font-family: Poppins, sans-serif;
+  }
+  
+  #form input,
+  #form textarea {
+    color: #7d7c84;
+    font-family: Poppins, sans-serif;
+    border-radius: 0.5vw;
+    border: 1px solid #dfdfe0;
+    padding: 1vw 1vw 1vw 1vw;
+    font-size: 1vw;
+  }
+
+  #form input:focus,
+  #form textarea:focus {
+    outline: none;
+    color: black;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .right-form {
+    justify-self: end;
+    align-self: end;
+  }
+
+  .form-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1a2236;
+    font-family: Poppins, sans-serif;
+    transition: 0.3s;
+    margin-right: 65%;
+    padding: 1vw;
+    width: 15vw;
+    font-size: 1vw;
+  }
+
+  .form-btn:hover {
+    color: #1a2236;
+    background-color: #fff;
+    border: 1px solid #1a2236;
+    transition: 0.3s;
+  }
+
+  .form-btn:focus {
+    border: 2px solid #1a2236;
+    transition: 0.3s;
+  }
 }

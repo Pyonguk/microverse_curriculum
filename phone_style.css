@@ -14,6 +14,7 @@
   #dots2,
   #dots3,
   #main_proj_right,
+  .right-form,
   .dt_template {
     display: none;
   }
@@ -386,10 +387,6 @@
     margin: 2vw 4vw 2vw 4vw;
     outline: none;
     color: black;
-  }
-
-  #form li:focus {
-    border: 3px solid #1a2236;
   }
 
   #form label {
