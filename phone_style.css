@@ -198,7 +198,6 @@
     padding-bottom: 10vw;
   }
 
-  .about_title,
   #about {
     padding: 0 4vw 4vw 4vw;
     margin-bottom: 0;
@@ -206,6 +205,8 @@
   }
 
   .about_title {
+    padding: 0 4vw 4vw 0;
+    color: #1a2236;
     padding-top: 10vw;
     margin-bottom: 5vw;
   }

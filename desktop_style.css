@@ -222,7 +222,7 @@
     padding: 5%;
     background: #1a2236f2;
     font-family: Poppins, sans-serif;
-    padding-bottom: 4vw; 
+    padding-bottom: 4vw;
   }
 
   #grid3 .sec_proj_title {
@@ -342,7 +342,7 @@
   }
 
   .skills {
-    background-color: #febf52
+    background-color: #febf52;
   }
 
   .languages,
@@ -367,6 +367,7 @@
   #dots3 {
     width: 15vw;
   }
+
   #about_right {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
@@ -388,7 +389,7 @@
   }
 
   .cv {
-    font-size: 1vw;;
+    font-size: 1vw;
     margin-right: 50%;
   }
 
@@ -463,12 +464,16 @@
     align-self: center;
     justify-self: center;
   }
-  
+
+  textarea {
+    width: 100%;
+  }
+
   #form label {
     color: #7d7c84;
     font-family: Poppins, sans-serif;
   }
-  
+
   #form input,
   #form textarea {
     color: #7d7c84;
@@ -483,10 +488,6 @@
   #form textarea:focus {
     outline: none;
     color: black;
-  }
-
-  textarea {
-    width: 100%;
   }
 
   .right-form {
