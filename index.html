@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Curriculum</title>
+    <title>Pyonguk Agustin | Portfolio</title>
     <link rel="icon" href="icons/portfolio.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="phone_style.css">
+    <link rel="stylesheet" type="text/css" href="desktop_style.css">
   </head>
 
   <body>
     <header>
+      <div id="dt_header">
+        <a href="#" class="header_item">Home</a>
+        <a href="#main_title" class="header_item">Portfolio</a>
+        <a href="#about" class="header_item">About</a>
+        <a href="#form" class="header_item">Contact</a>
+      </div>
       <div class="toolbar">
         <div class="left-header">
           <img src="icons/figure1.png" class="figure1" alt="triangle">
@@ -21,174 +28,217 @@
           </a>
         </nav>
       </div>
-      <div class="intro">
-        <h1 class="name">Pyonguk<br>Agustin</h1>
-        <div class="paragraph">
-          <p>
-            Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.
-          </p>
+      <div id="dt_intro">
+        <div class="intro">
+          <h1 class="name">Pyonguk<br>Agustin</h1>
+          <div class="paragraph">
+            <p>
+              Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me.
+            </p>
+          </div>
+          <a class="btn" href="#"><h6>Start Collaboration</h6></a>
+          <img id="dots1" src="icons/dots_grid.svg" alt="dots">
         </div>
-        <a class="btn" href="#">Start Collaboration</a>
+        <div id="dt_geom_intro">
+          <img src="icons/dektop_geometry_intro.svg" alt="geometry">
+        </div>
       </div>
     </header>
     <div class="geometrical_div">
       <img src="icons/geometry.png" alt="A geometrical division">
     </div>
-    <h1 class="main_title">Projects</h1>
     <main>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project1.svg" alt="Example image">
+      <div id ="main_project">
+        <div id="main_proj_left">
+          <h1 id="main_title">Projects</h1>
+          <img id="dots2" src="icons/dots_grid.svg" alt="dots">
         </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+        <section id="main_proj_right" class="project">
+          <div class="template">
+            <img class="img_proj1" src="icons/project1.svg" alt="Example image">
           </div>
-          <button type="button">See This Project →</button>
-        </div>
-      </section>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project2.svg" alt="Example image">
-        </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+          <div class="descr no_del">
+            <h2>Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button class="btn2" type="button">See This Project →</button>
           </div>
-          <button type="button">See This Project →</button>
-        </div>
-      </section>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project3.svg" alt="Example image">
-        </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+        </section>
+      </div>
+      <div id="sec_proj">
+        <section id="grid1" class="project">
+          <div class="template">
+            <img class="img_left1" src="icons/project2.svg" alt="Example image">
           </div>
-          <button type="button">See This Project →</button>
-        </div>
-      </section>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project4.svg" alt="Example image">
-        </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+          <div class="descr del">
+            <h2>Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button type="button">See This Project →</button>
           </div>
-          <button type="button">See This Project →</button>
-        </div>
-      </section>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project5.svg" alt="Example image">
-        </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+        </section>
+        <div id="grid2" class="project">
+          <div class="dt_template">
+            <img class="img_left2" src="icons/geometry.svg" alt="Example image">
           </div>
-          <button type="button">See This Project →</button>
         </div>
-      </section>
-      <section class="project">
-        <div class="template">
-          <img src="icons/project6.svg" alt="Example image">
-        </div>
-        <div class="descr">
-          <h2>Project name goes here</h2>
-          <div class="lang">
-            <h3>HTML/CSS</h3>
-            <h3>Ruby on Rails</h3>
-            <h3>JavaScript</h3>
+        <section id="grid3" class="project grid">
+          <div class="template del">
+            <img class="img_left3" src="icons/project3.svg" alt="Example image">
           </div>
-          <button type="button">See This Project →</button>
+          <div class="descr">
+            <h2 class="sec_proj_title">Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button type="button">See This Project →</button>
+          </div>
+        </section>
+        <section id="grid4" class="project grid">
+          <div class="template">
+            <img class="img_left" src="icons/project4.svg" alt="Example image">
+          </div>
+          <div class="dt_template">
+            <img class="img_left4" src="icons/shape.svg" alt="Example image">
+          </div>
+          <div class="descr del">
+            <h2>Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button type="button">See This Project →</button>
+          </div>
+        </section>
+        <section id="grid5" class="project">
+          <div class="template">
+            <img class="img_right2" src="icons/project5.svg" alt="Example image">
+          </div>
+          <div class="dt_template">
+            <img class="img_right3" src="icons/two_squares.svg" alt="Example image">
+          </div>
+          <div class="descr del">
+            <h2>Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button type="button">See This Project →</button>
+          </div>
+        </section>
+        <div id="grid6" class="dt_template">
+            <img src="icons/geometry_5.svg" alt="geometry">
+            <img src="icons/geometry_4.svg" alt="geometry">
         </div>
-      </section>
+        <section id="grid7" class="project">
+          <div class="template">
+            <img src="icons/project6.svg" alt="Example image">
+          </div>
+          <div class="descr del">
+            <h2>Project name goes here</h2>
+            <div class="lang">
+              <h3>HTML/CSS</h3>
+              <h3>Ruby on Rails</h3>
+              <h3>JavaScript</h3>
+            </div>
+            <button type="button">See This Project →</button>
+          </div>
+        </section>
+      </div>
     </main>
-    <h1 class="about_title">About</h1>
-    <section class="about">
-      <div>
+    <section id="about">
+      <div id="about_right">
+        <h2 class="about_title">About</h2>
         <p class="par">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod.
         </p>
-        <button class="cv" type="button">Get my CV</button>
+        <button class="cv btn" type="button">Get my CV</button>
       </div>
-      <div class="languages">
-        <h2 class="about_subtitle">Languages</h2>
-        <ul>
-          <li><h3>JavaScript(ES5/ES6)</h3></li>
-          <li><h3>Ruby</h3></li>
-          <li><h3>HTML</h3></li>
-          <li><h3>CSS</h3></li>
-        </ul>
-        <img class="about_icon" src="/icons/2.svg" alt="hashtag">
-      </div>
-      <div class="frameworks">
-        <h2 class="about_subtitle">Frameworks</h2>
-        <ul>
-          <li><h3>Bootstrap</h3></li>
-          <li><h3>Ruby on rails</h3></li>
-          <li><h3>RSpec</h3></li>
-          <li><h3>Capibara</h3></li>
-          <li><h3>Selenium</h3></li>
-        </ul>
-        <img class="about_icon" src="/icons/square.svg" alt="square">
-      </div>
-      <div class="skills">
-        <h2 class="about_subtitle">Skills</h2>
-        <ul>
-          <li><h3>Codekit</h3></li>
-          <li><h3>Codepen</h3></li>
-          <li><h3>GitHub</h3></li>
-          <li><h3>GitLab</h3></li>
-          <li><h3>Terminal</h3></li>
-        </ul>
-        <img class="about_icon" src="/icons/bulb.svg" alt="light bulb">
+      <div id="about_left">
+        <div class="languages">
+          <h2 class="about_subtitle">Languages</h2>
+          <ul>
+            <li><h3>JavaScript(ES5/ES6)</h3></li>
+            <li><h3>Ruby</h3></li>
+            <li><h3>HTML</h3></li>
+            <li><h3>CSS</h3></li>
+          </ul>
+          <img class="about_icon" src="/icons/2.svg" alt="hashtag">
+        </div>
+        <div class="frameworks">
+          <h2 class="about_subtitle">Frameworks</h2>
+          <ul>
+            <li><h3>Bootstrap</h3></li>
+            <li><h3>Ruby on rails</h3></li>
+            <li><h3>RSpec</h3></li>
+            <li><h3>Capibara</h3></li>
+            <li><h3>Selenium</h3></li>
+          </ul>
+          <img class="about_icon" src="/icons/square.svg" alt="square">
+        </div>
+        <div class="skills">
+          <h2 class="about_subtitle">Skills</h2>
+          <ul>
+            <li><h3>Codekit</h3></li>
+            <li><h3>Codepen</h3></li>
+            <li><h3>GitHub</h3></li>
+            <li><h3>GitLab</h3></li>
+            <li><h3>Terminal</h3></li>
+          </ul>
+          <img class="about_icon" src="/icons/light_bulb.svg" alt="light bulb">
+        </div>
+        <div id="about_dots">
+          <img id="dots3" src="icons/dots_&_square.svg" alt="dots">
+        </div>
       </div>
     </section>
     <section id="form">
-      <div class="left-form">
+      <div class="left-form del">
         <img src="icons/figure1.png" class="figure1" alt="triangle">
         <img src="icons/figure2.png" class="figure3" alt="rhombus">
       </div>
-      <h2 class="form_title">Get Started</h2>
-      <p class="form-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-      <form action="https://formspree.io/f/xgerpyrn" method="POST">
-        <div class=ul>
-          <div class="inside">
-            <label class="text">Your name</label>
-            <input type="text" name="name" maxlength="30" placeholder="e.g. Javier Rodriguez" required> 
+      <div class="left-form">
+        <img src="icons/geometry1_form.svg" class="dt_template" alt="rhombus">
+      </div>
+      <div class="center-form">
+        <h2 class="form_title">Get Started</h2>
+        <p class="form-par del">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        <p class="form-par dt_template">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <form action="https://formspree.io/f/xgerpyrn" method="POST">
+          <div class=ul>
+            <div class="inside inside1">
+              <label class="text">Your name</label>
+              <input type="text" name="name" maxlength="30" placeholder="e.g. Javier Rodriguez" required> 
+            </div>
+            <div class="inside inside2">
+              <label class="email">Your email</label>
+              <input type="email" name="email" placeholder="e.g. example@example.com" required>
+            </div>
+            <div class="textarea">
+              <label class="dt_template">Message</label>
+              <textarea name="text" maxlength="500" rows="10" placeholder="Enter your message here..." required></textarea>
+            </div>
+            <div class="button">
+              <button type="submit" class="form-btn">
+                Start Collaboration
+              </button>
+            </div>
           </div>
-          <div class="inside">
-            <label class="email">Your email</label>
-            <input type="email" name="email" placeholder="e.g. example@example.com" required>
-          </div>
-          <div class="textarea">
-            <textarea name="text" maxlength="500" rows="10" placeholder="Enter your message here..." required></textarea>
-          </div>
-          <div class="button">
-            <button type="submit" class="form-btn">
-              Start Collaboration
-            </button>
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
+      <div class="right-form">
+        <img src="icons/geometry2_form.svg" alt="geometry">
+      </div>
     </section>
     <footer>
       <section id="resume">

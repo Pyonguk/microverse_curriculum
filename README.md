@@ -2,16 +2,19 @@
 
 # Curriculum Mobile Version
 
-> First 4 sections of the curriculum, including:
+> All the curriculum, including:
 
 - Toolbar with their respective icons and geometrical shapes.
 - Headline with their respective fonts, sizes and "Star Collaboration" button.
 - Works section
 - About me
+- Form
+- Footer
 
 ![screenshot](./icons/preview.png)
+![screenshot](./icons/desktop_version.png)
 
-**Since is a mobile version please change the adaptive design view width bellow 800px.**
+**For the mobile version please change the adaptive design view width bellow 800px.**
 
 ## Built With
 
