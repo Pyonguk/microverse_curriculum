@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Curriculum Mobile Version
+# Curriculum Desktop and Mobile Version
 
 > All the curriculum, including:
 
@@ -25,8 +25,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://pyonguk.github.io/microverse_curriculum/)
-
+[GitHub Pages Demo](https://pyonguk.github.io/microverse_curriculum/)
 
 ## Getting Started
 
