@@ -23,8 +23,8 @@
     color: #1a2236;
     font-family: Poppins, sans-serif;
     font-weight: 400;
-    border-radius: 15px;
-    transition: font-size 1s, color 1s, background-color 1s, padding 1s;
+    border-radius: 10px;
+    transition: font-size 0.5s, color 0.5s, background-color 0.5s, padding 0.5s;
   }
 
   .header_item:hover {
@@ -32,7 +32,6 @@
     color: white;
     background-color: #1a2236;
     padding: 4px 8px;
-
   }
 
   .header_item:active {
@@ -52,16 +51,16 @@
     align-self: center;
     margin-left: 12vw;
     color: #1a2236;
-    height: 100%;
     animation-duration: 3s;
     animation-name: slidein;
+    height: 100%;
   }
 
   @keyframes slidein {
     from {
       margin-right: 200%;
     }
-  
+
     to {
       margin-right: 0%;
     }
@@ -127,7 +126,7 @@
     from {
       margin-left: 150%;
     }
-  
+
     to {
       margin-left: 0%;
     }
@@ -169,7 +168,6 @@
   }
 
   .no_del {
-    display: grid;
     grid-template-rows: repeat(3, 1fr);
     padding: 2vw;
     background-color: #1a2236f2;
@@ -185,11 +183,13 @@
 
   .lang {
     display: flex;
-    align-self: center;
+    align-self: flex-start;
+    white-space: nowrap;
+    margin-top: 2%;
   }
 
   .lang h3 {
-    margin-right: 3vw;
+    margin-right: auto;
     padding: 0.4vw 0.8vw;
     color: #1a2236;
     background-color: #98dede;
@@ -197,16 +197,17 @@
   }
 
   .btn2 {
-    display: flex;
-    font-size: 2vw;
     text-decoration: none;
     color: #1a2236;
     background-color: #fff;
     padding: 1vw 2vw;
     font-family: Poppins, sans-serif;
     transition: 0.3s;
-    margin-right: 50%;
+    margin-right: auto;
     align-self: center;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-top: 4%;
   }
 
   .btn2:hover {
@@ -265,8 +266,6 @@
     background: #1a2236f2;
     font-family: Poppins, sans-serif;
     padding-bottom: 4vw;
-    display: flex;
-    flex-direction: column;
   }
 
   #grid3 .sec_proj_title {
@@ -279,7 +278,7 @@
   #grid3 button {
     margin-top: 2vw;
     display: flex;
-    font-size: 1vw;
+    font-size: 20px;
     text-decoration: none;
     color: #1a2236;
     background-color: #fff;
